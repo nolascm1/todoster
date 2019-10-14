@@ -36,7 +36,7 @@ $(function() {
       $('.toggle').change(toggleTask);
     } );
     }
-cd 
+    
     $.get("/tasks").success( function( data ) {
       var htmlString = "";
 
